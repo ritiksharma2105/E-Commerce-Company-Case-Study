@@ -403,7 +403,7 @@ Order by SalesFrequency desc
 limit 5; -- which prod id has the highest salesfrequency? .i.e, Pro id 7
 #------------------------------------------------------------------------------------------#
 
--- 4.10) Engagement Products ----- Doubt in this question
+-- 4.10) Engagement Products 
 Select * from products;
 Select * from orders;
 Select * from Order_Details;
@@ -435,7 +435,7 @@ Where pcc.UniqueCustomerCount < (0.40 * TotalCustomerCount)
 Order by pcc.UniqueCustomerCount asc; 
 #---------------------------------------------------------------------#
 
--- 4.11) Customer Aquisition Trends -- Need more practice on this
+-- 4.11) Customer Aquisition Trends 
 Select * from orders;
 
 With Customer_Aquisition As (
